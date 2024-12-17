@@ -1,4 +1,4 @@
-# Priya_Apex_Design
+# Priya_Apex_Designs
 Created with CodeSandbox
 
 How to run it locally:
