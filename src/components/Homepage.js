@@ -4,13 +4,19 @@ import { motion } from "framer-motion";
 function Homepage() {
   const [move, setMove] = React.useState();
   return (
-    <div className="homepage-container">
-      <motion.div animate={{ x: move ? 500 : -500 }} className="overlay-text">
-        <h1>Innovative Mechanical Designs</h1>
-        <p>Transforming Ideas into Mechanical Masterpieces</p>
-      </motion.div>
-    </div>
+    <motion.div className="homepage-container">
+      <div className="overlay-text">
+        <motion.h1 initial={{ scale: 0.8 }}
+              whileInView={{ scale: 1 }}
+    transition={{duration:0.3, ease: "easeIn"}} >Innovative Mechanical Designs</motion.h1>
+        <motion.p initial={{ scale: 0.8 }}
+              whileInView={{ scale: 1 }}
+    transition={{duration:0.2, ease: "easeIn"}} >Transforming Ideas into Mechanical Masterpieces</motion.p>
+      </div>
+    </motion.div>
   );
 }
 
 export default Homepage;
+
+
