@@ -13,7 +13,7 @@ function SiteNavbar() {
         {/* Navbar Brand with Logo */}
         <Navbar.Brand href="#home" className="d-flex align-items-center">
           <img src="/images/logo.png" alt="Priya Apex Logo" className="me-2" />
-          Priya Apex Design
+          Priya Apex Designs
         </Navbar.Brand>
         {/* Navbar Toggle for Mobile */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

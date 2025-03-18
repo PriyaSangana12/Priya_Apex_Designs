@@ -39,30 +39,34 @@ function Footer() {
           <Col md={6} className="text-center text-md-start">
             <h2 className="footer-title">Reach Out</h2>
             <div className="footer-underline"></div>
+            <div className="footer-details">
             <p className="footer-name">Ajay Kumar Mangam</p>
             <p className="footer-email">priyaapexdesign@gmail.com</p>
-            <p className="footer-phone">+91 6304119904</p>
+              <p className="footer-phone">+91 6304119904</p>
             {/* Social Icons */}
             <div className="social-icons">
               <a href="#" className="icon">
-                <i className="bi bi-instagram"></i>
+              <a href="https://www.instagram.com/apex_designs_company/"><i className="bi bi-instagram"></i></a>
               </a>
+              {/* 
               <a href="#" className="icon">
                 <i className="bi bi-twitter"></i>
               </a>
-              <a href="#" className="icon">
+             <a href="#" className="icon">
                 <i className="bi bi-facebook"></i>
               </a>
+              */}
               <a href="#" className="icon">
-                <i className="bi bi-linkedin"></i>
+                <a href="http://linkedin.com/company/priyaapexdesigns "> <i className="bi bi-linkedin"></i></a>
               </a>
-            </div>
+              </div>
+              </div>
           </Col>
         </Row>
       </Container>
       {/* Bottom bar */}
       <div className="footer-bottom text-center mt-3">
-        Terms & Support | Designed with ❤️ by Manpreet Kaur
+        Terms & Support | All Rights Reserved.
       </div>
     </div>
   );

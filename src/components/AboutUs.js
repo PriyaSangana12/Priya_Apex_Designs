@@ -15,21 +15,21 @@ function AboutUs() {
       <div className="work-with-us-text-section">
         <h1 className="work-with-us-title">About Us</h1>
         <p className="work-with-us-description">
-          At our mechanical designing company, we pride ourselves on delivering
+          At our mechanical designing company, We pride ourselves on delivering
           cutting-edge engineering solutions. With a team of experienced
           designers and engineers, we tackle complex projects and turn them into
           reality. Our commitment to quality and innovation ensures that we meet
           and exceed our clients' expectations. Let us help you bring your
           vision to life.
         </p>
-        <motion.button
+        {/*<motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           onHoverStart={() => console.log("hover started!")}
           className="btn btn-light work-with-us-learn-more-button"
         >
           TALK TO US
-        </motion.button>
+        </motion.button> */}
       </div>
       <motion.div
         initial={false}
