@@ -11,6 +11,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden; /* Enables horizontal scrolling on mobile */
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,14 +27,11 @@ body {
   color: #ffffff; /* Default white text color */
 }
 
-/* Navbar styling */
 .navbar {
-  position: absolute; /* Place the navbar on top of the image */
-  top: 0;
-  left: 0;
-  width: 100%; /* Ensure it spans the full width */
-  background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
-  z-index: 10; /* Ensure it stays on top of other elements */
+  position: relative; /* Allows it to stay visible */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -104,6 +109,26 @@ body {
 .overlay-text p {
   font-size: 1.5rem; /* Larger subtext font size */
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .overlay-text {
+    white-space: normal; /* Allows text to wrap on smaller screens */
+    padding: 20px 30px; /* Adjust padding for smaller screens */
+    max-width: 90%; /* Prevents text from stretching too wide */
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay-text .homepage-title {
+    font-size: 2.5rem; /* Reduce font size for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay-text .homepage-subtitle {
+    font-size: 1.5rem; /* Reduce font size for mobile */
+  }
 }
 
 .custom-img {
@@ -264,6 +289,14 @@ body {
   border-radius: 8px; /* Rounded corners for the image */
 }
 
+@media (max-width: 768px) {
+  .about-image {
+    width: 200px;
+    height: auto;
+    border-radius: 4px; /* Rounded corners for the image */
+  }
+}
+
 .about-content {
   text-align: left;
   padding: 20px;
@@ -304,6 +337,12 @@ body {
   height: auto; /* Let the content determine the height */
   min-height: 80vh; /* Set a smaller minimum height */
   border-radius: 10px; /* Optional: Adds a modern rounded effect */
+}
+
+@media (max-width: 768px) {
+  .work-with-us-container {
+    flex-direction: column;
+  }
 }
 
 .work-with-us-text-section {

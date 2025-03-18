@@ -40,15 +40,18 @@ function Footer() {
             <h2 className="footer-title">Reach Out</h2>
             <div className="footer-underline"></div>
             <div className="footer-details">
-            <p className="footer-name">Ajay Kumar Mangam</p>
-            <p className="footer-email">priyaapexdesign@gmail.com</p>
+              <p className="footer-name">Ajay Kumar Mangam</p>
+              <p className="footer-email">priyaapexdesign@gmail.com</p>
               <p className="footer-phone">+91 6304119904</p>
-            {/* Social Icons */}
-            <div className="social-icons">
-              <a href="#" className="icon">
-              <i className="bi bi-instagram"></i>
-              </a>
-              {/* 
+              {/* Social Icons */}
+              <div className="social-icons">
+                <a
+                  href="https://www.instagram.com/apex_designs_company/"
+                  className="icon"
+                >
+                  <i className="bi bi-instagram"></i>
+                </a>
+                {/* 
               <a href="#" className="icon">
                 <i className="bi bi-twitter"></i>
               </a>
@@ -56,11 +59,14 @@ function Footer() {
                 <i className="bi bi-facebook"></i>
               </a>
               */}
-              <a href="#" className="icon">
-                <i className="bi bi-linkedin"></i>
-              </a>
+                <a
+                  href="http://linkedin.com/company/priyaapexdesigns"
+                  className="icon"
+                >
+                  <i className="bi bi-linkedin"></i>
+                </a>
               </div>
-              </div>
+            </div>
           </Col>
         </Row>
       </Container>
