@@ -46,7 +46,7 @@ function Footer() {
             {/* Social Icons */}
             <div className="social-icons">
               <a href="#" className="icon">
-              <a href="https://www.instagram.com/apex_designs_company/"><i className="bi bi-instagram"></i></a>
+              <i className="bi bi-instagram"></i>
               </a>
               {/* 
               <a href="#" className="icon">
@@ -57,7 +57,7 @@ function Footer() {
               </a>
               */}
               <a href="#" className="icon">
-                <a href="http://linkedin.com/company/priyaapexdesigns "> <i className="bi bi-linkedin"></i></a>
+                <i className="bi bi-linkedin"></i>
               </a>
               </div>
               </div>
