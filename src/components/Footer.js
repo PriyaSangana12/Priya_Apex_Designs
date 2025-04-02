@@ -40,9 +40,9 @@ function Footer() {
             <h2 className="footer-title">Reach Out</h2>
             <div className="footer-underline"></div>
             <div className="footer-details">
-              <p className="footer-name">Ajay Kumar Mangam</p>
+              <p className="footer-name">Priya Sangana</p>
               <p className="footer-email">priyaapexdesign@gmail.com</p>
-              <p className="footer-phone">+91 6304119904</p>
+              <p className="footer-phone">+91 7013573958</p>
               {/* Social Icons */}
               <div className="social-icons">
                 <a
