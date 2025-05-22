@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Button } from "react-bootstrap";
 
 function Homepage() {
-  const [move, setMove] = React.useState();
   return (
     <motion.div className="homepage-container">
       <div className="overlay-text">
@@ -22,6 +22,15 @@ function Homepage() {
         >
           Transforming Ideas into Mechanical Masterpieces
         </motion.p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+        >
+          <Button href="#projects" className="explore-button" variant="none">
+            Explore Our Projects
+          </Button>
+        </motion.div>
       </div>
     </motion.div>
   );
