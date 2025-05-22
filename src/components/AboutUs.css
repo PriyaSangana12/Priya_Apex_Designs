@@ -1,0 +1,40 @@
+.outer-wrapper {
+  padding: 0px;
+  background-color: white;
+}
+
+.image-wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 85vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.about-box {
+  background-color: #ffffff; /* modern white */
+  padding: 30px;
+  max-width: 450px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); /* soft modern shadow */
+  border-radius: 12px; /* smoother corners */
+  margin-top: 190px;
+  margin-left: 30px;
+}
+
+.about-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.about-box hr {
+  border: 2px solid red;
+  width: 120px;
+  margin-left: 3px;
+  margin-bottom: 15px;
+}
