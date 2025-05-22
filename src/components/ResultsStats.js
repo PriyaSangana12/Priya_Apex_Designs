@@ -1,6 +1,7 @@
 import React from "react";
 import "./ResultsStats.css";
 import { FaBriefcase, FaCheckCircle, FaThumbsUp } from "react-icons/fa";
+import Counter from "./Counter"; 
 
 const ResultsStats = () => {
   return (
@@ -11,17 +12,23 @@ const ResultsStats = () => {
       <div className="stats-grid">
         <div className="stat-item">
           <FaBriefcase className="stat-icon" />
-          <p className="stat-number">10+</p>
+          <p className="stat-number">
+            <Counter target={10} />+
+          </p>
           <p className="stat-text">Years of Experience</p>
         </div>
         <div className="stat-item">
           <FaCheckCircle className="stat-icon" />
-          <p className="stat-number">50+</p>
+          <p className="stat-number">
+            <Counter target={50} />+
+          </p>
           <p className="stat-text">Projects Done</p>
         </div>
         <div className="stat-item">
           <FaThumbsUp className="stat-icon" />
-          <p className="stat-number">100%</p>
+          <p className="stat-number">
+            <Counter target={100} />%
+          </p>
           <p className="stat-text">Satisfaction</p>
         </div>
       </div>
